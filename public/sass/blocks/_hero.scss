@@ -1,0 +1,23 @@
+.hero {
+  background-image: url(../../assets/image/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 170px 0;
+}
+
+.hero__info {
+  margin-bottom: 15px;
+  font-weight: 800;
+  font-size: 34px;
+  color: $yellow-color;
+  text-transform: capitalize;
+}
+
+.hero__title {
+  width: 760px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: $light-color;
+}

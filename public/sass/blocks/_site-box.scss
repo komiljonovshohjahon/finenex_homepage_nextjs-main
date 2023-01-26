@@ -1,0 +1,21 @@
+.site-box {
+  padding: 45px 0;
+  gap: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.site-box__holder {
+  width: 33.3%;
+  text-align: center;
+}
+
+.site-box__heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.site-box__img{
+  margin-bottom: 20px;
+}

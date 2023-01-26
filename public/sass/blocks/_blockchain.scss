@@ -1,0 +1,59 @@
+.blockchain {
+  position: relative;
+  padding: 8em 0;
+  background-image: url(../../assets/image/blockchain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 45, 62, 0.86);
+    content: "";
+  }
+}
+
+.inner-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.inner-block__holder {
+  text-align: center;
+  width: 25%;
+}
+
+.blockchain__title {
+  margin: 0;
+  margin-bottom: 4rem;
+  font-weight: 800;
+  font-size: 2.8em;
+  line-height: 117%;
+  text-align: center;
+  color: $light-color;
+}
+
+.inner-block__title {
+  margin: 0;
+  margin-bottom: 1rem;
+  min-height: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.4em;
+  line-height: 132%;
+  color: $light-color;
+}
+
+.inner-block__text {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 135%;
+  color: $light-color;
+  opacity: 0.78;
+}

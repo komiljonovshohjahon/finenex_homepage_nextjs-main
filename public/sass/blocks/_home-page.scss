@@ -1,0 +1,53 @@
+.join {
+  padding: 100px 0;
+}
+
+.join-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-join {
+  padding: 60px 40px 20px;
+  width: calc(33.3% - 22px);
+  background-color: #f8fafc;
+  border-bottom: 18px solid $text-color;
+}
+
+.box-join__title {
+  margin: 0;
+  margin-bottom: 24px;
+  width: 264px;
+  line-height: 132%;
+  min-height: 64px;
+  font-weight: 700;
+  font-size: 24px;
+  color: $main-color;
+}
+
+.box-join__text {
+  margin: 0;
+  min-height: 126px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $main-color;
+}
+
+.box-join__img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.box-join__icon {
+  margin-bottom: 40px;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $violet-color;
+  border-radius: 50%;
+}

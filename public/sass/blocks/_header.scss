@@ -1,0 +1,60 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav__link {
+  color: $light-color;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  text-transform: capitalize;
+
+  &:hover {
+    color: $yellow-color;
+  }
+
+  &.active {
+    color: $yellow-color;
+  }
+}
+
+.site-header__link,
+.site-header__logo {
+  display: inline-block;
+  width: 182px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.ant-dropdown-menu {
+  background-color: #475569 !important;
+}
+
+.ant-dropdown-menu-title-content > a:hover {
+  color: $light-color !important;
+}
+
+.ant-dropdown-arrow {
+  display: none !important;
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: $orange-color;
+}
+
+.ant-dropdown-menu-item {
+  color: $light-color !important;
+}

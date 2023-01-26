@@ -1,0 +1,30 @@
+.react-table {
+  margin-bottom: 70px;
+}
+
+.table-th {
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 147%;
+  color: $main-color;
+  border-bottom: 4px solid $table-color !important;
+  text-transform: capitalize;
+}
+
+.table-row {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: $main-color;
+  margin: auto 0;
+  text-transform: uppercase;
+}
+
+.table-td {
+  font-size: 1.4em;
+  color: $main-color;
+}
+
+td,
+th {
+  padding: 16px !important;
+}

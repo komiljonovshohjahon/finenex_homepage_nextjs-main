@@ -1,0 +1,16 @@
+.section-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.section-main__container {
+  width: 50%;
+
+  &:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
